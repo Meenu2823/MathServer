@@ -38,8 +38,9 @@ Publish the website in the given URL.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0J
+    MhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body style="background-color: yellowgreen ;padding-top: 12%;">
     <form action="" method="post">
@@ -56,7 +57,8 @@ Publish the website in the given URL.
             </div>
         </div>
     </form>
-    <div class="card mx-auto text-center" style="width: 30rem;background-color: rgb(13 110 253);color: white;">
+    <div class="card mx-auto text-center" style="width: 30rem;
+     background-color: rgb(13 110 253);color: white;">
          By - Meenu.S,212223230124
     </div>
 </body>
