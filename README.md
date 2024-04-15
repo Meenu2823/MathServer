@@ -50,8 +50,10 @@ Publish the website in the given URL.
                 Surface Area of Right Cylinder
             </div>
             <div class="card-body" style="background-color: yellow;">
-                Enter the radius (in 'm') : <p><input type="text" name="r" id="" value="{{r}}"></p>
-                Enter the height (in 'm') : <p><input type="text" name="h" id="" value="{{h}}"></p>
+                Enter the radius (in 'm') :
+                <p><input type="text" name="r" id="" value="{{r}}"></p>
+                Enter the height (in 'm') :
+                <p><input type="text" name="h" id="" value="{{h}}"></p>
                 <p><input class= "btn btn-primary" type="submit" value="Calculate Area"></p>
                 The area (in 'm<sup>2</sup>') :
                 <p><input type="text" name="a" value="{{a}}" id="" readonly></p>
