@@ -92,7 +92,6 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![image](https://github.com/Meenu2823/MathServer/assets/139416219/63f2d1cb-a4e7-4078-af10-3c8e25db92cd)
 ![image](https://github.com/Meenu2823/MathServer/assets/139416219/7a61ee24-6b4c-47f8-8b2b-2d6ab67481a7)
 
 
