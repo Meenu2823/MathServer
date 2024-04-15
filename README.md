@@ -39,8 +39,8 @@ Publish the website in the given URL.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0J
-    MhjY6hW+ALEwIH" crossorigin="anonymous">
+     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh
+     0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body style="background-color: yellowgreen ;padding-top: 12%;">
     <form action="" method="post">
@@ -50,16 +50,16 @@ Publish the website in the given URL.
                 Surface Area of Right Cylinder
             </div>
             <div class="card-body" style="background-color: yellow;">
-                Enter the radius: <p><input type="text" name="r" id="" value="{{r}}"></p>
-                Enter the height: <p><input type="text" name="h" id="" value="{{h}}"></p>
+                Enter the radius (in 'm') : <p><input type="text" name="r" id="" value="{{r}}"></p>
+                Enter the height (in 'm') : <p><input type="text" name="h" id="" value="{{h}}"></p>
                 <p><input class= "btn btn-primary" type="submit" value="Calculate Area"></p>
-                The area : <p><input type="text" name="a" value="{{a}}" id="" readonly></p>
+                The area (in 'm<sup>2</sup>') : <p><input type="text" name="a" value="{{a}}" id="" readonly></p>
             </div>
         </div>
     </form>
     <div class="card mx-auto text-center" style="width: 30rem;
      background-color: rgb(13 110 253);color: white;">
-         By - Meenu.S,212223230124
+        By - Meenu.S,212223230124
     </div>
 </body>
 </html>
@@ -94,7 +94,8 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![image](https://github.com/Meenu2823/MathServer/assets/139416219/7a61ee24-6b4c-47f8-8b2b-2d6ab67481a7)
+![image](https://github.com/Meenu2823/MathServer/assets/139416219/9cdacaf5-5533-41ce-af0e-d849c9880832)
+
 
 
 ## RESULT:
