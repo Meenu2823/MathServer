@@ -38,16 +38,17 @@ Publish the website in the given URL.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: yellowgreen ;padding-top: 12%;">
     <form action="" method="post">
         {% csrf_token %}
         <div class="card mx-auto text-center" style="width: 30rem;">
             <div class="card-header bg-primary text-white">
                 Surface Area of Right Cylinder
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: yellow;">
                 Enter the radius: <p><input type="text" name="r" id="" value="{{r}}"></p>
                 Enter the height: <p><input type="text" name="h" id="" value="{{h}}"></p>
                 <p><input class= "btn btn-primary" type="submit" value="Calculate Area"></p>
@@ -55,7 +56,9 @@ Publish the website in the given URL.
             </div>
         </div>
     </form>
-    <div class="card mx-auto text-center" style="width: 30rem;">By - Meenu.S,212223230124</div>
+    <div class="card mx-auto text-center" style="width: 30rem;background-color: rgb(13 110 253);color: white;">
+         By - Meenu.S,212223230124
+    </div>
 </body>
 </html>
 ~~~
@@ -89,7 +92,7 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![image](https://github.com/Meenu2823/MathServer/assets/139416219/adc0a9c5-6a95-4f2f-ae17-4071722228b4)
+![image](https://github.com/Meenu2823/MathServer/assets/139416219/63f2d1cb-a4e7-4078-af10-3c8e25db92cd)
 
 
 ## RESULT:
