@@ -55,6 +55,7 @@ Publish the website in the given URL.
             </div>
         </div>
     </form>
+    <div class="card mx-auto text-center" style="width: 30rem;">By - Meenu.S,212223230124</div>
 </body>
 </html>
 ~~~
@@ -88,7 +89,8 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-15 143215](https://github.com/Meenu2823/MathServer/assets/139416219/6939a6c2-5bde-4c99-aafa-4047cdf5a81f)
+![image](https://github.com/Meenu2823/MathServer/assets/139416219/adc0a9c5-6a95-4f2f-ae17-4071722228b4)
+
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
