@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:15.04.24
 
 ## AIM:
 To design a website to find surface area of a Right Cylinder in server side.
@@ -30,13 +30,65 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+### math.html:
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="card mx-auto text-center" style="width: 30rem;">
+            <div class="card-header bg-primary text-white">
+                Surface Area of Right Cylinder
+            </div>
+            <div class="card-body">
+                Enter the radius: <p><input type="text" name="r" id="" value="{{r}}"></p>
+                Enter the height: <p><input type="text" name="h" id="" value="{{h}}"></p>
+                <p><input class= "btn btn-primary" type="submit" value="Calculate Area"></p>
+                The area : <p><input type="text" name="a" value="{{a}}" id="" readonly></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+~~~
+### views.py:
+~~~
+from django.shortcuts import render
+def calculateArea(request):
+    a=r=h=0
+    if request.method=='POST':
+        r=int(request.POST['r'])
+        h=int(request.POST['h'])
+        a=round(2*22/7*r*h + 2*22/7*r*r,2)
+        print('Radius:',r,'\nHeight:',h,'\nArea:',a)
+    return render(request,'math.html',{'a':a,'r':r,'h':h})
+~~~
+### urls.py:
+~~~
+from django.contrib import admin
+from django.urls import path
+from ex5 import views
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',views.calculateArea)
+]
 
+~~~
 
 ## SERVER SIDE PROCESSING:
 
+![Screenshot 2024-04-15 143444](https://github.com/Meenu2823/MathServer/assets/139416219/24b03c4d-ba0c-40ca-804f-a4f4fcdc8918)
 
 ## HOMEPAGE:
 
+![Screenshot 2024-04-15 143215](https://github.com/Meenu2823/MathServer/assets/139416219/6939a6c2-5bde-4c99-aafa-4047cdf5a81f)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
